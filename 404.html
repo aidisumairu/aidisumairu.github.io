@@ -1,15 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gema Fast Solutions — company profile" />
-    <title>Gema Fast Solutions</title>
-    <script type="module" crossorigin src="/assets/index-BOVhFJ6N.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D4rCpElj.css">
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages only serves the root 404.html; route unknown paths back into the right app.
+      var p = location.pathname.toLowerCase();
+      var target = p.indexOf('/gema') === 0 ? '/gema/' : p.indexOf('/vista') === 0 ? '/vista/' : '/';
+      location.replace(target + location.hash);
+    </script>
   </head>
-  <body>
-    <div id="app"></div>
-  </body>
+  <body></body>
 </html>
